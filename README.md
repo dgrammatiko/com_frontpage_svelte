@@ -1,4 +1,4 @@
-[The online version](https://dgrammatiko.github.io/com_frontpage/)
+[The online version](https://dgrammatiko.github.io/com_frontpage_svelte/)
 
 This is a remake of [The hyperHTML version](https://dgrammatiko.github.io/com_frontpage/) of the online packager for the Joomla Empty component from @mbabker
 
@@ -10,4 +10,3 @@ This is a remake of [The hyperHTML version](https://dgrammatiko.github.io/com_fr
 - `npm i`
 - `npm run build`
 - To serve locally run `npm run dev`
-
