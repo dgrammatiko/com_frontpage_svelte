@@ -21,7 +21,7 @@ export default {
 			// we'll extract any component CSS out into
 			// a separate file — better for performance
 			css: css => {
-				css.write('docs/bundle.css');
+				css.write('docs/bundle-es6.css');
 			}
 		}),
 
