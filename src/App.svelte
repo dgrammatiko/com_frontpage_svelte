@@ -12,7 +12,7 @@
   } from "./data";
 
   export let name;
-  export let buttonEnabled = false;
+  export let buttonEnabled = true;
   export let componentName = "Empty";
   export let componentNameLowercase = "empty";
   const reserved = [
