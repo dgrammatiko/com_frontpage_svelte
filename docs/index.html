@@ -4,7 +4,6 @@
 <head>
 	<meta charset='utf8'>
 	<meta name='viewport' content='width=device-width'>
-
 	<title>Joomla's Landing Page Component Creator</title>
 	<meta name="Description" content="Joomla's Landing Page Component Creator">
 	<link rel='icon' type='image/png' href='favicon.png'>
@@ -13,7 +12,9 @@
 </head>
 
 <body>
-	<script src='bundle.js'></script>
+	<div id="app"></div>
+	<script type="module" src='bundle-es6.js'></script>
+	<script nomodule src='bundle-es5.js'></script>
 </body>
 
 </html>

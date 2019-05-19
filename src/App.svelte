@@ -10,10 +10,11 @@
     dataDefaultXml,
     dataDefaultPhp
   } from "./data";
+
   export let name;
   export let buttonEnabled = false;
   export let componentName = "Empty";
-
+  export let componentNameLowercase = "empty";
   const reserved = [
     "ajax",
     "banners",
