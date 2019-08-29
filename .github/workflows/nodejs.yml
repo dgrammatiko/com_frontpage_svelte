@@ -23,3 +23,9 @@ jobs:
         npm run build --if-present
       env:
         CI: true
+    -name Copy things
+      env:
+      BUILD_DIR: public/
+      secrets: GH_PAT
+      run:
+        ./push.sh
