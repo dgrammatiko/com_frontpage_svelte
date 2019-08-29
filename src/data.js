@@ -188,4 +188,7 @@ $renderer->render('some-other-module-position', array('style' => 'raw'), null);
   </layout>
 </metadata>
 `;
-export { JSZip, saveAs, dataControllerPhp, dataEmptyPhp, dataEmptyXml, dataViewHtmlPhp, dataMetadataXml, dataDefaultXml, dataDefaultPhp };
+export { 
+  JSZip,
+  saveAs,
+  dataControllerPhp, dataEmptyPhp, dataEmptyXml, dataViewHtmlPhp, dataMetadataXml, dataDefaultXml, dataDefaultPhp };
