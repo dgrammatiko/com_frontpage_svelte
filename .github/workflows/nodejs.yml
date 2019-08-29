@@ -25,7 +25,7 @@ jobs:
         CI: true
     -name Copy things
       env:
-      BUILD_DIR: public/
-      secrets: GH_PAT
+        BUILD_DIR: public/
+        secrets: GH_PAT
       run:
         ./push.sh
