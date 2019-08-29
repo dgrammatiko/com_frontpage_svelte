@@ -23,7 +23,7 @@ jobs:
         npm run build --if-present
       env:
         CI: true
-    -name Copy things
+    - name: Copy things
       env:
         BUILD_DIR: public/
         secrets: GH_PAT
