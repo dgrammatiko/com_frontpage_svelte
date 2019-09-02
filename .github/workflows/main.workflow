@@ -1,3 +1,4 @@
+workflow: def
 name: Build and Deploy
 on:
   push:
