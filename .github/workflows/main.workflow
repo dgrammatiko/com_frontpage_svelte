@@ -1,5 +1,4 @@
-workflow: def
-name: Build and Deploy
+name: Booooo
 on:
   push:
     branches:
