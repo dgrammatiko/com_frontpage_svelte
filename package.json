@@ -21,7 +21,7 @@
     "svelte": "3.29.7"
   },
   "dependencies": {
-    "file-saver": "2.0.4",
+    "file-saver": "2.0.5",
     "jszip": "3.5.0"
   },
   "scripts": {
