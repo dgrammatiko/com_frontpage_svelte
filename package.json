@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "file-saver": "2.0.5",
-    "jszip": "3.7.1"
+    "jszip": "3.10.1"
   },
   "scripts": {
     "build": "rollup -c config.es6.js && rollup -c config.es5.js",
